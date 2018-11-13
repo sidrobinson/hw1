@@ -1,0 +1,21 @@
+#header {
+    display: block;
+    margin: 100px
+    width: 50%
+    border: 10px
+
+.body {
+    display: inline;
+    margin; 20px
+    width; 20%
+    
+}
+
+.number {
+    /* will affect all elements with a "number" class */
+
+}
+
+#header {
+
+}
