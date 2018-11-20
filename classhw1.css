@@ -1,21 +1,92 @@
+
+/* this is something that we're probably gonna remove before we're done: */
+* {
+    /* border: 1px solid black; */
+}
+
+body {
+    padding: 100px;
+    background-color: grey;
+}
+
 #header {
+    background-color: lightgrey;
+    text-align: center;
     display: block;
-    margin: 100px
-    width: 50%
-    border: 10px
-
-.body {
-    display: inline;
-    margin; 20px
-    width; 20%
-    
+    padding: 10px;
+    width: 100%;
+    height: 50px;
 }
 
-.number {
-    /* will affect all elements with a "number" class */
-
+h2 {
+    background-color: lightgrey;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
 }
 
-#header {
+section {
+    background-color: lightgrey;
+    float: left;
+    left: -10px;
+    margin: 10px;
+    width: 50%;
+    height: 250px;
+    position: relative;
+}
 
+.article {
+    background-color: darkgrey;
+    position: absolute;
+    width: 80%;
+    height: 100px;
+    padding: 30px;
+    margin: 20px;
+    top: 50px;
+}
+
+.h1 {
+    padding: 30px;
+    background-color: lightgrey;
+    position: absolute;
+    width: 70%;
+    height: 0px;
+    margin: 10px;
+    left: 30px;
+    bottom: 100px;
+}
+
+.p {
+    padding: 30px;
+    background-color: lightgrey;
+    position: absolute;
+    width: 70%;
+    height: 0px;
+    margin: 10px;
+    left: 30px;
+    bottom: 30px;
+}
+
+aside {
+    background-color: lightgray;
+    float: right;
+    margin: 10px;
+    padding: 50px;
+    width: 35%;
+    height: 150px;
+}
+
+footer {
+    font-size: 40px;
+    text-align: center;
+    background-color: lightgrey;
+    display: block;
+    padding: 10px;
+    width: 82%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
 }
