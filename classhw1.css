@@ -5,16 +5,16 @@
 }
 
 body {
-    padding: 100px;
     background-color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #header {
     background-color: lightgrey;
     text-align: center;
     display: block;
-    padding: 10px;
-    width: 100%;
+    width: 99%;
     height: 50px;
 }
 
@@ -23,8 +23,7 @@ h2 {
     font-size: 30px;
     text-align: center;
     display: block;
-    padding: 10px;
-    width: 100%;
+    width: 99%;
     height: 50px;
 }
 
@@ -36,6 +35,7 @@ section {
     width: 50%;
     height: 250px;
     position: relative;
+    display: inline;
 }
 
 .article {
@@ -77,6 +77,8 @@ aside {
     padding: 50px;
     width: 35%;
     height: 150px;
+    margin-left: 0px;
+    font-size: 20px;
 }
 
 footer {
@@ -85,8 +87,8 @@ footer {
     background-color: lightgrey;
     display: block;
     padding: 10px;
-    width: 82%;
+    width: 81%;
     height: 50px;
     position: fixed;
-    bottom: 0px;
+    bottom: 150px;
 }
